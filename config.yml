@@ -1,0 +1,19 @@
+# Cacher les rails au joueur quand il se connecte et quand il change de chunk
+hideAllRails: false
+# Cacher les rails au joueur dans un rayon de x chunks autour de lui (0 = 1 seul chunk)
+hideAllRailsChunkRadius: 0
+# Attendre x ticks avant de cacher les rails au joueur quand il se connecte
+# nécessaire car ou le serveur n'a pas encore chargé les chunks, ou le client ne les a pas encore reçus.
+hideRailsOnConnectionAfterTicks: 20
+# Modifie la rotation des minecarts pour qu'elle corresponde aux rails. Sans effet apparent
+fixMinecartsRotation: false
+# Montrer la direction que suit un rail quand on le clique
+showRailDirectionOnClick: false
+# Montrer la position d'un véhicule quand il est emprunté
+showRidedVehicleLocation: false
+# Envoyer la position du véhicule toutes les x secondes
+showRidedVehicleLocationIntervalSeconds: 2
+# Modifie le pitch de x toutes les showRidedVehicleLocationIntervalSeconds secondes du minecart emprunté
+pitchOffsetWhenShowRidedVehicleLocation: 0.0
+# Modifie le yaw de x toutes les showRidedVehicleLocationIntervalSeconds secondes du minecart emprunté
+yawOffsetWhenShowRidedVehicleLocation: 0.0
